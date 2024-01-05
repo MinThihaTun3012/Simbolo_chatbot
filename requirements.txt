@@ -2,7 +2,6 @@ streamlit
 numpy 
 pandas
 tensorflow
-json
 pickle
 tensorflow
 nltk

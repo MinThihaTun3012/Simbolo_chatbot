@@ -13,9 +13,10 @@ from keras.layers import Dense, Activation, Dropout
 from nltk.stem import WordNetLemmatizer
 from keras.optimizers import SGD
 
-
+# download wordnet for WordNetLemmatizer
 nltk.download('wordnet')
-
+# download punkt for word_tokenize
+nltk.download("punkt")
 
 
 # <-------- load necessary items -------------------->

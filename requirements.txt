@@ -2,7 +2,5 @@ streamlit
 numpy 
 pandas
 tensorflow
-pickle
-tensorflow
 nltk
 random

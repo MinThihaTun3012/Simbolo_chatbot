@@ -1,0 +1,150 @@
+{"intents": [
+        {   
+            "tag": "greeting",
+            "patterns": ["Hi","How are you","Is anyone there?","Hello","Hello there"],
+            "responses": ["Hello, Welcome to Simbolo","Nice to me you, Welcome to Simbolo","Hi there, how can I help?"],
+            "context_set": ""
+        },
+        {
+            "tag" : "thank",
+            "patterns" : ["Thanks", "Thank you"],
+            "responses" :["Happy to help","I glad you get it"],
+            "context_set" :""
+        },
+        {
+            "tag": "classes_Track",
+            "patterns": ["which classes are in Simbolo?", "may I know the classes offered?", "which tracks are in Simbolo?", "may I know the tracks offered?", "Are there any online classes available?", "online courses available?"],
+            "responses": ["We have classes/Track for Ai, Data Science, Web development and Mobile development" ],
+            "context_set": ""
+        },
+        {
+            "tag": "Ai",
+            "patterns": ["classes for Ai?","tracks for Ai","is there classes for Ai?","classes for Machine Learning?","classes for ML?","track for Machine learning", "classes are available for beginner in Ai, artificial intelligence", "where do I have to start learning for AI", "how many AI courses offered in Simbolo", "Ai track", "Artificial intelligent track", "Ai classes", "Artificial intelligent classes", "Machine Learning track"],
+            "responses": ["Available courses for AI track in Simbolo  \n    1. Fundamentals of Python Programming Course  \n    2. Essential Math for AI and Data Science Course  \n    3. Introduction to AI Course  \n    4. Applied Machine Learning Course  \n    5. Introduction to Computer Vision using Python Course  \n    6. Practical Natural Language Processing Course  \nIf you are an AI newbie, you should start from course 1 to 6 in the following order.  \nOtherwise, you can select a preferred one based on your background knowledge.  \nIf you want to enquire about other classes, just type the specific name of the track.  \nIf you want to know about jump start program and other services offered for IT enthusiasts, type `jump start and services`.    \nSGenerally, IT learners who have already completed at least three Simbolo courses are allowed to join jump start programs."],
+            "context_set": ""
+        },
+        {
+            "tag": "DS",
+            "patterns": ["tracks for Data science, DS?","classes, tracks for Data Analysis, DS?","Data Science track"],
+            "responses": ["For Simbolo's Data Science Track/classes,  \n  1.Fundamentals of Python Programming Course  \n   2.Essential Math for Ai and Data Science Course  \n   3.Power Bi Course  \n  4.Oracle Database Foundation Course  \n    5.Introduction to Artificial Intelligence Course  \n    6.Applied Machine Learning Course  \n    7.Data Science Foundation Course  \nif you are a beginner, highly recommended to start from 1 to 7.  \nFor more information for each class, type class's names.  \nIf you want to know about jump start internship program and other offers for students, type `jump start and offers`."],
+            "context_set": ""
+        },
+        {
+            "tag": "Web",
+            "patterns": ["classes for Web development?","courses for Web development?","tracks for WEb development?","classes in Web development track", "track available in Web development track"],
+            "responses": ["Discover a variety of web development courses catering to all skill levels, right here in Simbolo.  \n1. UI/UX Fundamental Course  \n2. Web Development Foundation Course  \n3. React JS Course (Frontend)  \n4. Web Development with PHP Course (Backend)"],
+            "context_set": ""
+        },
+        {
+            "tag": "Mobile",
+            "patterns": ["classes for Mobile development?","tracks for Mobile development?","classes, tracks available in Mobile development track"],
+            "responses": ["Empower yourself with the skills to create the future of the mobile  \n- explore mobile development courses in Simbolo!  \n 1. Fundamentals of Java Programming Course  \n 2. Flutter Course"],
+            "context_set": ""
+        },
+        {
+            "tag": "Python",
+            "patterns": ["classes for python in simbolo?", "Python class", "python course", "Fundamentals of Python Programming", "Python"],
+            "responses": ["**Fundamentals of Python Programming**      \nBatch 11 is on teaching, please wait for batch 12  \nClass Details for Batch 11  \nInstructor : Tr.Htet Htet Mon  \nClass Fee : 50,000MMK  \nDuration : 2 months  \nWe have two class for different time  \n class 1 time : 7 - 9 pm (Sat, Sun)  \n class 1 start date: 23.12.2023  \n class 2 time : 7 - 9 pm (Mon, Tues)  \n class 2 start date: 26.12.2023  \n📌 The course will be taught via Zoom and the recording will be posted on Google Classroom.  \n📌 Discord platform will be used for class communication. "],
+            "context_set": ""
+        },
+        {
+            "tag": "Math",
+            "patterns": ["Math class", "Math Fundamentals: Behind the Senses of Ai", "math course for beginner","Math class for beginner", "Essential Math for Ai and Data Science Course", "Math course", "mathematics course in Simbolo", "free Course", "is there any free course in simbolo?"],
+            "responses": [" Attend with 100% tuition fee exemption. \n  Math Fundamentals: Behind the Senses of Ai\nBatch 8 on teaching, please wait for Batch 9  \n📌 Course Details for Batch 8  \nStart Date - December 9, 2023  \nTime - 10:00 AM to 12:00 PM( Sat & Sun )  \nDuration - 2 months  \nCourse Fee - 50000 MMK with 100% Refund  \nTeaching Platform - Zoom (Live Section)  \nInstructor - Tr. Nyein Thiha Zaw   \nIt will be taught via Zoom and the recording will be uploaded to Google Classroom.   \n🔺 For 100% Refund, there are (3) points that must be followed by those who will attend the course.\nAttendance\nDuring the course, you must be able to attend and teach without fail to reach 90% of the course hours.\nFinal exam & term paper\nYou must get 60 marks or above in the final exam and complete the term paper.\nAssignment\n75% of the course assignments must be completed.\nIf you want to join this `Math Fundamentals: Behind the Sense of AI Batch 8` class, please fill out the form below.\n https://forms.gle/RcGDrvrGxuszc3Ne7 \nFor those who want to study this free course, please like and share this post and write `Math Fundamentals Batch 8` in the comment of the original post. After that, fill out the form and show it to me on Messenger.\n(Only those with ` Math Fundamentals Batch 8` will be eligible for this opportunity.)"],
+            "context_set": ""
+        },
+        {
+            "tag": "PowerBi",
+            "patterns": ["PowerBi Course", "PowerBi class", "Power Bi"],
+            "responses": ["**Power Bi**  \nBatch 2 finished, please wait for Batch 3  \n📌 Course Details for Batch 2  \nStart Date - February 25, 2023  \nTime – 7 PM to 8:30 PM (Sat & Sun) \nDuration - 1 month and Half  \nCourse Fee – 80000 MMK (or 40,000MMK per month)  \nTeaching Platform - Zoom (Live Section) \nInstructor - Tr. Thin Yee Mon Su  \nIn this course, we will teach  \nIntroduction to Power BI Basics and Power  \nQuery Editor  \nData Preparation and Transformation  \nData Model and Relationships\nData Analysis Expressions (DAX) \nData Visualization and Building Interactive Reports and etc\n"],
+            "context_set": ""
+        },       
+        {
+            "tag": "Oracle",
+            "patterns": ["Oracle Data Foundation Course", "Oracle Course", "Oracle class", "Oracle Data Foundation Class", "Oracle"],
+            "responses": ["**Oracle Data Foundation**  \nBatch 7 finished please wait for Batch 8  \n📌 Course Details for Batch 7\nStart Date - November 20, 2023  \nTime – 7 PM to 8:30 PM (Mon & TUE)   \nDuration - two month   \nCourse Fee – 70000 MMK (or 35,000MMK per month)  \nTeaching Platform - Zoom (Live Section)  \nInstructor – Tr.Aster  \nIf you want to attend the class (Batch 7), fill out the form below and register and submit the course.   \nhttps://forms.gle/6Y2Cs4x4JbjhE4LV9\n"],
+            "context_set": ""
+        },        
+        {
+            "tag": "Intro_to_Ai",
+            "patterns": ["Ai course for beginner", "Introduction to Ai class",  "Introduction to Ai course", "Introduction to Ai", "Ai Foundation : From Theory to Practical Application", "Intro to Ai", "Which class is available for beginner in Ai", "Introduction to Artificial intelligent"],
+            "responses": ["**Intro to Ai / Ai Foundation: From Theory to Practical Applications.**  \n  \nBatch 13 is on teaching, please wait for Batch 14.   \n📌 Course Details for Batch 13  \nStart Date - November 18, 2023  \nTime – 7 PM to 9 PM (Sat & Sun)  \nDuration - two months  \nCourse Fee – 80000 MMK (or 40,000MMK per month)  \nTeaching Platform - Zoom (Live Section)  \nInstructor - Sayar. Phyo Thu Htet & Tr. Nyein Thiha Zaw  \nIf you want to attend the class (Batch 13), fill out the form below and register and submit the course. \nhttps://forms.gle/fSyeeBgUKJ4L38d1A\n"],
+            "context_set": ""
+        },
+        {
+            "tag": "Applied_Machine_Learning",
+            "patterns": ["Applied Machine Learning", "beginner class in Machine Learning", "Applied ML", "Applied Machine Learning class", "Applied Machine Learning course", "Machine Learning course", "Machine Learning class"],
+            "responses": ["**Applied Machine Learning**  \n  \nBatch 7 is on teaching, please wait for Batch 8  \n📌 Course Details for Batch 7  \nStart Date – November 04, 2023  \nTime – 4 PM to 5:30 PM (SAT & SUN)  \nDuration - two months  \ncourse Fee – 70000 MMK (or 35,000MMK per month)  \nTeaching Platform - Zoom (Live Section)  \nInstructor – Htet Htet Mon\n"],
+            "context_set": ""
+        },
+        {
+            "tag": "cv",
+            "patterns": ["CV class", "CV course","CV", "Computer Vision class", "Computer Vision course", "Computer vsison","𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝘁𝗼 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗩𝗶𝘀𝗶𝗼𝗻 class", "𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝘁𝗼 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗩𝗶𝘀𝗶𝗼𝗻 course", "Introduction to Computer Vision"],
+            "responses": ["**𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝘁𝗼 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗩𝗶𝘀𝗶𝗼𝗻 (𝗕𝗮𝘁𝗰𝗵 𝟭𝟬)**  \n  \nComputer Vision (CV) is a technology that uses algorithms to understand objects  \nin digital images, similar to human vision. It's used for object detection, radiology,  \ntransportation, media, marketing, and architecture, and is widely used in  \nhealthcare, radiology, and other fields.  \n  \nClass Details  \nStart Date - January 6, 2023   \nTime - 4:00 PM to 5:30 PM( Sat & Sun )   \nDuration - 2 months  \nCourse Fee - 80000 MMK (40000 MMK per month)  \nTeaching Platform - Zoom (Live Section)  \nprerequisites - Must have basic of Python and Machine Learning  \ninstructor info - Tr.Cynthia  \n  \nOutline  \n- Introduction to Computer Vision  \n- Image Processing with Python  \n- Machine Learning with Python  \n- Deep Learning with Python  \n  \nIf you want to attend the class, you can fill out the form below and register for the  \ncourse.  \nhttps://forms.gle/scaqfpvZ76SYBz4c7"],
+            "context_set": ""
+        },
+        {
+            "tag": "NLP",
+            "patterns":["Natural Language Processing Course", "Natural Language Processing class","NLP", "NLP class", "NLP course", "Pratical Natural Language Processing class", "Pratical Natural Language Processing Course", "Machine Translation"],
+            "responses":["**Practical Natural Language Processing class**  \n  \nThe Practical Natural Language Processing class at Símbolo aims to teach the basics of Generation Models, including Text, Audio, and Video Generation, and their applications in the field of Natural Language Processing (NLP). The course covers various concepts and theories of NLP, with readings provided every other day. Completing the course will equip students with the knowledge to apply NLP in various projects and ensure their continued learning.  \n  \nCourse detail for Batch 1  \nStart Date -  \nTime -   \nDuration -  \nCourse Fee -   \nTeaching Platform -   \nprerequisites - Must have basic of Python and Machine Learning  \nInstructor - Tr. Yi Yi Can Myae Win Sein  \n  \nCourse outline  \n- Machine Learning and NLP  \n- Text Normalization and Regular Expression  \n- Word Representation  \n- N-gram Language Models  \n- Linear Classification and Generalization  \n- Part-of-Speech Tagging  \n- Dependency Parsing  \n- Neural Networks and Backpropagation  \n- RNN, GRU, LSTM  \n- Attention and Machine Translation  \n- Transformer, BERT"],
+            "context_set":""
+        },
+        {
+            "tag": "Data_Science_Foundation",
+            "patterns": ["Data Science Foundation class", "Data Science Foundation Course", "Data Science Foundation"],
+            "responses": ["**Data Science Foundation**  \nBatch-5 is finished, Please Wait for Batch-6  \n📌 Course Details for Batch 7  \nStart Date – October 21, 2023  \nTime – 4 PM to 6 PM (SAT & SUN)  \nDuration - two months  \nCourse Fee – 80,000 MMK (or 40,000MMK per month)  \nTeaching Platform - Zoom (Live Section)  \nInstructor – Tr.Sophia  \n"],
+            "context_set": ""
+        },
+        {
+            "tag": "ux_ui",
+            "patterns": ["ux ui class","ux ui course","UX/UI Essential Course", "UX/UI Essential class", "UX UI Essential Course", "UX UI Essential class"],
+            "responses": ["**𝗨𝗫/𝗨𝗜 𝗘𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗖𝗼𝘂𝗿𝘀𝗲**  \nCourse Details   \nStart Date - December 2, 2023   \nTime - 7 p.m to 8:30 p.m ( Sat & Sun )   \nDuration - 2 months  \nCourse Fee - 80000 mmk (40000 mmk per month )  \nTeaching Platform - Zoom (Live Section)  \n In this course, we will teach  \n-Introduction to UX Ul Design.   \n- User Experience Design Essentials.  \n- User Research Methods.  \n- Information Architecture.  \n- Get in touch with design tools.  \n- Wireframing and Prototyping.  \n- Visual Design Principles.  \n- Usability Testing  \n- Responsive and Mobile Ul.  \n- Final Project"],
+            "context_set": ""
+        },
+        {
+            "tag": "web_foundation",
+            "patterns": ["Website Development Foundation course", "Website Development Foundation class", "web development foundation course", "web development foundation class"],
+            "responses": ["**Web Development Foundation**  \n Course Details \n Start Date - December 16, 2023 \n Time - 4:00 PM to 6:00 PM( Sat & Sun ) \n Duration - 2.5 months\n Course Fee - 80000  \n- K (40000MMK per month)\n Teaching Platform - Zoom (Live Section)  \nIn this course, we will teach  \n-  Introduction to Web Technology  \n-  HTML  \n-  CSS  \n-  JavaScript  \n-  Bootstrap"],
+            "context_set": ""
+        },
+        {
+            "tag": "react_js",
+            "patterns": ["React Js","React Js course", "React Js class"],
+            "responses": ["**React JS Course**  \n React JS is a powerful JavaScript library, created by Facebook, that's primarily used for building dynamic and interactive user interfaces (UIs) for web applications.  \n Course Details   \n Start Date - December 15, 2023   \n Time - 9:00 AM to 11:00 AM( Sat & Sun )   \n Duration - 2.5 months  \n Course Fee - 70000 MMK (35000MMK per month)  \n Teaching Platform - Zoom (Live Section)  \n In this course, we will teach  \n - Introduction to React   \n - React Components and Props  \n - React Hooks  \n - API Calling with Axios in React   \n - Custom Hook  \n - React Router Dom   \n - Useful and Popular UI Libraries for React  \n - Form Handling with React Hook Form   \n - Redux   \n - React-redux"],
+            "context_set": ""
+        },
+        {
+            "tag": "web_development_with_php",
+            "patterns": ["PHP","PHP course","PHP class", "Website Development with PHP class", "website development with php course", "web development with PHP", "Web Development with PHP class", "web development with php course", "web development with PHP"],
+            "responses": ["**Web Development with PHP Course**   \n   \n A PHP course can open doors to creating dynamic websites and powerful web  \n applications.  \n   \n Course Details   \n Start Date - December 30, 2023   \n Time - 6:00 PM to 8:00 PM( Sat & Sun )   \n Duration - 3 months  \n Course Fee - 90000 MMK (45000MMK per month)  \n Teaching Platform - Zoom (Live Section)  \n   \n In this course, we will teach  \n - Introduction to Php  \n - Form Management  \n - Building a Dynamic Image Gallery  \n - Databases, MVC and Data Objects  \n - Building the Blog System."],
+            "context_set": ""
+        },
+        {
+            "tag": "java",
+            "patterns": ["Java","Java class","Java course","Java programming course", "Java programming class", "Fundamentals of Java Programming" ],
+            "responses": ["**Fundamentals of Java Programming Course**  \n   \n Imagine taking apart a LEGO castle and putting it back together, only this time,  \n you're using code instead of tiny plastic bricks! That's kind of what learning Java  \n feels like for beginners.   \n   \n Course Details   \n Start Date - Nov 15, 2023   \n Time - 7:00 AM to 9:00 AM( Sat & Sun )   \n Duration - 2 months  \n Course Fee - 50000 MMK  \n Teaching Platform - Zoom (Live Section)  \n   \n In this course, we will teach  \n - Programming and Java Concept  \n - Data Types and Variables  \n - Control statements  \n - Operators  \n - Exception Handling  \n - Classes  \n - Functions  \n - File  \n - Array  \n - Package  \n - Tokenizer  \n - Object Oriented Programming  \n - Database Connection"],
+            "context_set": ""
+        },
+        {
+            "tag": "flutter",
+            "patterns": ["Flutter course", "Flutter class", "Flutter"],
+            "responses": ["**Flutter Course**  \n   \n Imagine building apps for both Android and iOS, all with one codebase! That's the magic of Flutter, and its beginner-friendly courses make it accessible even if you've  \n never coded before.  \n   \n Course Details   \n Start Date - December 30, 2023   \n Time - 7:00 PM to 9:00 PM( Sat & Sun )   \n Duration - 2.5 months  \n Course Fee - 80000 MMK (40000MMK per month)  \n Teaching Platform - Zoom (Live Section)  \n \nIn this course, we will teach  \n  \n - Development Environment Setup  \n - Master in Dart  \n - Crafting Beautiful Uls  \n - Practice Widget Implementation  \n - Mastering State Management  \n - Networking in Flutter  \n - Hands-on Local Storage  \n - Clean code and 00 Design Patterns  \n - Building real-world applications"],
+            "context_set": ""
+        },
+        {
+            "tag": "simbolo",
+            "patterns": ["What is  Simbolo?", "Tell me about simbolo", "What does simbolo do?"],
+            "responses": ["Símbolo is a training school that teaches science and technology subjects such as Artificial Intelligence, Data Science, Web Development, Mobile Development and Information Technology with quality courses not only theoretically but also practically in a project-based manner. In addition, we aim to continue education during this difficult time.  \nSímbolo is pronounced in Spanish and means Symbol. Símbolo was founded on May 6, 2021. Simbolo's office has now opened in Mandalay."],
+            "context_set": ""
+        },
+        {
+            "tag": "student's_benefits",
+            "patterns": ["Student's benefits", "Is there any discount", "Offer for Students", "Jump start internship program", "Membership card", "Paid Project Opportunities", "Competition Mentorship", "Pocket Money Program for Symbols", "Student Club", "Jump start program and offers", "discount", "discounts"],
+            "responses": ["there are many special opportunities that only Símbolo's students can get.  \n**Membership Card**  \n  \nStudents who have attended at least three (3) classes in Símbolo's open classes will receive a membership card that will allow them to attend additional classes with a 5% discount.  \nMembership Card can be accessed from the link below  \n[Membership Card: 5%  Discounts](https://forms.gle/tRuPEtB1dPK8SyAw5)  \n  \n**Jump Start Internship Program**  \n  \nHave attended 5 classes in Símbolo's (AI + Data Science) Track or (Web + Mobile) Track, Jump Start Internship Program is organized for those who have obtained at least 3 certificates.  \n  \nJump Start Internship Program details can be accessed from the link below.  \nhttps://m.facebook.com/story.php?story_fbid=794493319128951&id=100057048716138&mibextid=Nif5oz  \n**Super Paid Project Opportunities**  \n Upon completion of the Jump Start Program  \nFor Paid Projects, there is also a Súper Program that will give priority to students who have completed the Jump Start Program.  \n  \n**Letter of Recommendation**  \n  \nFor those who have attended 3rd grade in Símbolo's classes, either to apply for a scholarship or not. There is a chance to get an important letter of recommendation for other programs as well.  \nLetter of Recommendation by Academic Department (https://shorturl.at/KPY01)  \n  \n**Competition Mentorship**  \n  \nStudents who want to actively represent Símbolo in various AI and IT competitions will be given the necessary guidance in the competition.  \n(Contact +959942457901  if you need any support for national and international competitions)  \n **Pocket Money Program for Symbols**  \n  \nThe Pocket Money Program can be joined by students who have attended at least 1 class of Símbolo and team members working with Símbolo.\nIn addition to teaching IT and AI courses from Símbolo, Símbolo Servicio, a brand sub-brand of Símbolo, also provides services related to graphics.\nFor those who want to participate in the Pocket Money Program, your friends, You can introduce your friends about Símbolo's courses and graphics services and participate.  \nPocket Money Program details can be accessed from the link below.  \n https://shorturl.at/quPQ5  \n  \n**Student Clubs**  \n  \nAs a student attending Símbolo, you can gather with friends who share your interests and do activities at the Student Club."],
+            "context_set":""
+        }
+    ]
+}
+
+
+    

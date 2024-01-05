@@ -4,13 +4,16 @@ import tensorflow as tf
 import nltk
 import json
 import random
+import streamlit as st
+import pickle
+import scikeras
 from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from nltk.stem import WordNetLemmatizer
 from keras.optimizers import SGD
-import streamlit as st
-import pickle
+
+
 nltk.download('wordnet')
 
 

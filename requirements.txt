@@ -3,4 +3,3 @@ numpy
 pandas
 tensorflow
 nltk
-random
